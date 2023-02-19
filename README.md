@@ -23,21 +23,21 @@ Sample image:
 COCO File Structure:
 
 {<br>
-  "liscenses": [{...}],<br>
-  "info": {...},<br>
-  "categories": [{...}],<br>
-  "images": [{...}],<br>
-  "annotations": [{<br>
-      "id": ...,<br>
-      "image_id": ...,<br>
-      "category_id": ...,<br>
-      "segmentation": [...],<br>
-      "area": ...,<br>
-      "bbox": [...],<br>
-      "iscrowd": ...,<br>
-      "attributes": {<br>
-          "occluded": ...,<br>
-          "rotation": ....,<br>
-      }<br>
-   }]<br>
+  <space><space>*<space>"liscenses": [{...}],<br>
+  <space><space>*<space>"info": {...},<br>
+  <space><space>*<space>"categories": [{...}],<br>
+  <space><space>*<space>"images": [{...}],<br>
+  <space><space>*<space>"annotations": [{<br>
+      <space><space><space><space>*<space>"id": ...,<br>
+      <space><space><space><space>*<space>"image_id": ...,<br>
+      <space><space><space><space>*<space>"category_id": ...,<br>
+      <space><space><space><space>*<space>"segmentation": [...],<br>
+      <space><space><space><space>*<space>"area": ...,<br>
+      <space><space><space><space>*<space>"bbox": [...],<br>
+      <space><space><space><space>*<space>"iscrowd": ...,<br>
+      <space><space><space><space>*<space>"attributes": {<br>
+          <space><space><space><space><space><space>*<space>"occluded": ...,<br>
+          <space><space><space><space><space><space>*<space>"rotation": ....,<br>
+       <space><space><space><space>*<space>}<br>
+   <space><space>*<space>}]<br>
 }<br>
