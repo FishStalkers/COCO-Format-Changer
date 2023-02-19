@@ -18,6 +18,26 @@ Sample image:
 
 ![alt text](https://github.com/FishStalkers/COCO-to-PP-YOLOE-R/blob/main/Images/ImageEx.png)
 
-(Oriented bounding boxes drawn by hand)
+(Oriented bounding boxes drawn by hand, based on script output)
 
-Describe the structure of the coco-json file. 
+COCO File Structure:
+
+{
+  "liscenses": [{...}],
+  "info": {...},
+  "categories": [{...}],
+  "images": [{...}],
+  "annotations": [{
+      "id": ...,
+      "image_id": ...,
+      "category_id": ...,
+      "segmentation": [...],
+      "area": ...,
+      "bbox": [...],
+      "iscrowd": ...,
+      "attributes": {
+          "occluded": ...,
+          "rotation": ....,
+      }
+   }]
+}
