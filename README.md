@@ -22,22 +22,22 @@ Sample image:
 
 COCO File Structure:
 
-{
-  "liscenses": [{...}],
-  "info": {...},
-  "categories": [{...}],
-  "images": [{...}],
-  "annotations": [{
-      "id": ...,
-      "image_id": ...,
-      "category_id": ...,
-      "segmentation": [...],
-      "area": ...,
-      "bbox": [...],
-      "iscrowd": ...,
-      "attributes": {
-          "occluded": ...,
-          "rotation": ....,
-      }
-   }]
-}
+{<br>
+  "liscenses": [{...}],<br>
+  "info": {...},<br>
+  "categories": [{...}],<br>
+  "images": [{...}],<br>
+  "annotations": [{<br>
+      "id": ...,<br>
+      "image_id": ...,<br>
+      "category_id": ...,<br>
+      "segmentation": [...],<br>
+      "area": ...,<br>
+      "bbox": [...],<br>
+      "iscrowd": ...,<br>
+      "attributes": {<br>
+          "occluded": ...,<br>
+          "rotation": ....,<br>
+      }<br>
+   }]<br>
+}<br>
