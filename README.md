@@ -6,14 +6,9 @@ https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.5/docs/tutorials/
 
 generate a image that shows the angle calculation works for this script. 
 
-this script generates a new json? 
+Writes to an exsting json, updating its 'segmentation' (four corner cordinates) based on the 'bbox' (x, y, w, h) and 'rotation' (angle). This new json can then be used by PP-YOLOE-R.
 
-does pp-yolo-r accept a json? 
-
-show me how this values 
-
-![image](https://user-images.githubusercontent.com/74272793/218859973-cf9d5e39-c7a5-431d-8dcf-12a1fa1b8b40.png)
-
-were index in the json file
+Sample json, after script:
+![alt text](https://github.com/FishStalkers/COCO-to-PP-YOLOE-R/blob/main/Images/samplefile.PNG)
 
 Describe the structure of the coco-json file. 
